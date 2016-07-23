@@ -180,7 +180,6 @@ font-size: 12px;
 }
 
 /* 国旗フレアー */
-
 .flair-country {
   display: inline-block;
   width: auto;
@@ -190,7 +189,8 @@ font-size: 12px;
   border: none !important;
   padding: 0;
 }
-.flair-country:hover {min-width: 10px;
+.flair-country:hover {
+  min-width: 10px;
   width: auto;
   height: 12px;
   line-height: 12px;
@@ -205,7 +205,7 @@ font-size: 12px;
   padding: 0 4px;
 }
 /* 国旗フレアー */
-* [class*=" flair-"]:not(.flair-jump):not(span) {
+* [class*=" flair-country"] {
   width: 16px;
   height: 11px;
 }
