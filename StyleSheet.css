@@ -4,13 +4,14 @@
 
     新規作成      jamesthemesser  2015/02/18
 
-  改訂・Githubに移行  GiveMe9ASAP 2016-06-20
+    https://github.com/GiveMe9ASAP/NewsokuRCSS
 */
 
-* [class*="linkflair"] .linkflairlabel {
+* [class*="linkflair"] .linkflairlabel{
   font-size: 12px;
   font-weight: bold;
   color: white;
+  background: #333;
   max-width: 50px;
 }
 .linkflair-default .linkflairlabel {
@@ -204,7 +205,7 @@ font-size: 12px;
   padding: 0 4px;
 }
 /* 国旗フレアー */
-* [class*=" flair-"] {
+* [class*=" flair-"]:not(.flair-jump):not(span) {
   width: 16px;
   height: 11px;
 }
